@@ -3,17 +3,23 @@ Really Good Admin: SQL Client for browser
 
 ### Run
 
-1. `npm install`
-2. `mvn install`
+Fetch dependencies
+
+`npm install`
+`mvn install`
 
 Compile React.js front end
 
-3. `npm run watch`
+`npm run watch`
 
 Start application
 
-4. `mvn exec:java -Dexec.mainClass="org.rgadmin.AppKt"`
+`mvn exec:java -Dexec.mainClass="org.rgadmin.AppKt"`
+
+Open browser
+
+`open http://localhost:8080`
 
 Optionally run embedded PostgreSQL server. Starts in port 5432
 
-3. `mvn exec:java -Dexec.mainClass="org.rgadmin.embedded.EmbeddedPostgreSQLKt" -Dexec.classpathScope="test"`
+`mvn exec:java -Dexec.mainClass="org.rgadmin.embedded.EmbeddedPostgreSQLKt" -Dexec.classpathScope="test"`
